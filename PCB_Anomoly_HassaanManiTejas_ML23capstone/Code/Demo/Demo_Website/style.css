@@ -1,0 +1,28 @@
+.p_btn {
+    width: 100%;
+}
+
+#file {
+    width: 100%;
+}
+
+#options_div {
+    height: 15%; 
+    position: fixed; 
+    bottom: 0%;
+    width: 100%; 
+}
+
+#img_disp {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#img_div #img_disp {
+    max-height: 80%;
+    max-width: 100%;
+}

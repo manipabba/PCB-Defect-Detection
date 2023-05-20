@@ -1,0 +1,2 @@
+# How to Run
+To run, upload into google colab and run. You would also need to upload the data sources from the data folder and modify the paths in the notebooks to where the data is stored. There are two main data sources, Aerospace Corporation data and DeepPCB data. Additionally, the model (which is saved from the NoDefectReconstruction notebook) needs to be uploaded accordingly for the DefectDetector notebook

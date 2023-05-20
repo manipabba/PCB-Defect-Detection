@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PCB Defect Detector</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <div id="img_div">
+        <img src="" alt="img display" id="img_disp">
+    </div>
+    <div id="options_div">
+        <div>
+            <span>
+                <input type="file" id="file">
+                <input type="checkbox" id="deep_pcb_box" name="deep_pcb_box" value="yes">
+                <label for="deep_pcb_box"> Deep PCB Image?</label>
+            </span>
+        </div>
+        <div>
+            <button class = 'p_btn' onclick="process_img()">Process Image</button>
+        </div>
+        <div id="output_btn_div">
+            <button class = 'p_btn' id="pre_btn" onclick="disp_pre_img()">Display Pre-Processed Image</button>
+            <button class = 'p_btn' id="process_btn" onclick="disp_proc_img()">Display Processed Image</button>
+            <button class = 'p_btn' id="diff_btn" onclick="disp_diff_img()">Display Differenced Image</button>
+        </div>
+    </div>
+</body>
+</html>
